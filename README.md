@@ -112,7 +112,7 @@ To get started with development:
 git clone https://github.com/pgvector/pgvector-raku.git
 cd pgvector-raku
 createdb pgvector_raku_test
-zef install DB::Pg
+zef install DBIish DB::Pg
 raku dbiish.raku
 raku dbpg.raku
 ```
