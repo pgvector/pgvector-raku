@@ -16,6 +16,6 @@ jobs:
           cd pgvector
           make
           sudo make install
-      - run: zef install --/test DBIish DB::Pg
+      - run: zef --/test install DBIish DB::Pg
       - run: raku dbiish.raku
       - run: raku dbpg.raku
